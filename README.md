@@ -21,7 +21,7 @@
 ```
 ## Run
 
-1. cd/root
+1. cd Social-Networking/social_networking_project
 - Make sure you're in the root directory of your Django 
 project where manage.py is located.
 
