@@ -3,6 +3,7 @@
 ## Setup
 
 1. Install Virtual Environment
+   - cd Social-Networking/
 #### Ubuntu
 ```
     sudo apt update
