@@ -22,7 +22,10 @@
 ```
 ## Run
 
-1. cd Social-Networking/social_networking_project
+1. Enter into the project directory
+```
+    cd social_networking_project
+```
    - Make sure you're in the root directory of your Django 
 project where manage.py is located.
 
@@ -39,3 +42,4 @@ project where manage.py is located.
 ```
     localhost:8000/swagger/
 ```
+

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+    command: bash -c "python manage.py migrate && gunicorn --bind 0.0.0.0:8000 social_networking_project.wsgi:application"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./social_networking_project:/app/
+    environment:
+      - DJANGO_SETTINGS_MODULE=social_networking_project.settings
